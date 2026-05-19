@@ -1,3 +1,5 @@
-export default function Home() {
-  return <h1>Cambios para inicializar el proyecto</h1>;
+import Home from "./home/page";
+
+export default function app() {
+  return <Home />;
 }
