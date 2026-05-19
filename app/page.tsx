@@ -1,5 +1,5 @@
-import Image from "next/image";
+import Home from "./home/page";
 
-export default function Home() {
-  return <h1>Cambios para inicializar el proyecto</h1>;
+export default function app() {
+  return <Home />;
 }
