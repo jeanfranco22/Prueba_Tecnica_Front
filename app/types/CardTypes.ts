@@ -4,4 +4,5 @@ export type CardProps = {
   status: string;
   gender: string;
   image: string;
+  species?: string;
 };
