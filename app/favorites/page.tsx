@@ -11,19 +11,19 @@ const FavoritesPage = () => {
     <main className="min-h-screen bg-gray-100 px-6 py-10">
       <section className="mx-auto max-w-6xl">
         <div className="mb-8 flex items-center justify-between">
-          <h1 className="text-4xl font-bold text-gray-900">Favorites</h1>
+          <h1 className="text-4xl font-bold text-gray-900">Favoritos</h1>
 
           <Link
             href="/"
             className="rounded-lg bg-gray-900 px-4 py-2 text-white transition hover:bg-gray-700"
           >
-            Back home
+            Inicio
           </Link>
         </div>
 
         {favorites.length === 0 ? (
           <p className="text-center text-gray-500">
-            You don't have favorite characters yet.
+            Aun no tienes personajes favoritos
           </p>
         ) : (
           <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">

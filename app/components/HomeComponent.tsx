@@ -72,7 +72,7 @@ const HomeComponent = () => {
                   : "bg-white text-gray-900"
               }`}
             >
-              List
+              Lista
             </button>
 
             <Link
